@@ -58,12 +58,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'randomanimalmemebackend.urls'
+ROOT_URLCONF = 'randomanimalmemeapi.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / '']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'randomanimalmemebackend.wsgi.application'
+WSGI_APPLICATION = 'randomanimalmemeapi.wsgi.application'
 
 
 # Database
